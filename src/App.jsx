@@ -8,6 +8,7 @@ function App() {
 
   const handleClick = () => {
     const finalRes = randomHexGenerator();
+    setIsCopied(false);
     setHex(finalRes);
   };
   const handleCopy = () => {
